@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WatchFace version="1.0">
+	<WatchFaceItem type="background" config="@wfz/background/01.png"/>
+  <WatchFaceItem type="statusbar" y="296" />
+  <WatchFaceItem type="datawidget" id="0" x="210" y="150" dataType="6" model="2" configList="@wfz/datawidget_list.xml" /> <!--Day-->
+  <WatchFaceItem type="datawidget" id="0" x="20" y="150" dataType="6" model="1" configList="@wfz/datawidget_list.xml" /> <!--Date-->
+  <WatchFaceItem type="datawidget" id="0" x="118" y="54" dataType="8" model="0" configList="@wfz/datawidget_list.xml" /> <!--Weather-->
+  <WatchFaceItem type="datawidget" id="0" x="118" y="182" dataType="10" model="0" configList="@wfz/datawidget_list.xml" /> <!-- steps-->
+  <WatchFaceItem type="timehand" x="160" y="160" width="320" height="320" config="@wfz/timehand"/>
+</WatchFace>
